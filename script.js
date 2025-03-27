@@ -32,7 +32,7 @@ form.addEventListener('submit', async function(event) {
 
 // Function to get AI response from OpenAI API
 async function getAIResponse(question) {
-  const apiKey = 'YOUR_OPENAI_API_KEY'; // Replace with your OpenAI API key
+  const apiKey = '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'; // Replace with your OpenAI API key
 
   const response = await fetch('https://api.openai.com/v1/completions', {
     method: 'POST',
