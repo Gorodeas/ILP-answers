@@ -1,59 +1,32 @@
-/* Basic styling for the website */
-body {
-  font-family: Arial, sans-serif;
+/* General Reset */
+* {
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  box-sizing: border-box;
 }
 
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif; /* Basic sans-serif font, similar to ILP */
+  background-color: #f7f7f7; /* Light gray background */
+  color: #333; /* Dark text for readability */
+  line-height: 1.6;
+}
+
+/* Header Styling */
 header {
-  background-color: #4CAF50;
+  background-color: #3d8eb9; /* ILP's primary blue color */
   color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem 0;
 }
 
-main {
-  padding: 20px;
-}
-
-#qa-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-input[type="text"] {
-  padding: 0.5rem;
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
   margin-bottom: 1rem;
-  font-size: 1rem;
-  width: 100%;
 }
 
-button {
-  padding: 0.5rem;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-#response {
-  margin-top: 20px;
-  padding: 1rem;
-  background-color: white;
-  border: 1px solid #ddd;
-  display: none;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: white;
-}
+/* Main Section */
+main {
+  padding: 2rem 1.5rem;
